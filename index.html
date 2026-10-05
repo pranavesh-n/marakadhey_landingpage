@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO Metadata -->
+  <title>Marakadhey — Save It. Remember It. Never Lose It.</title>
+  <meta name="description" content="Marakadhey is a privacy-first browser extension for saving webpages, setting reminders, managing priorities, and remembering the things that matter." />
+  <meta name="author" content="Marakadhey" />
+  <meta name="theme-color" content="#050505" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marakadhey.com/" />
+  <meta property="og:title" content="Marakadhey — Save It. Remember It. Never Lose It." />
+  <meta property="og:description" content="Marakadhey is a privacy-first browser extension that helps you save webpages, capture important information, set reminders, and bring forgotten things back at the right time." />
+  <meta property="og:image" content="/assets/marquee_promo_tile.png" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Marakadhey — Save It. Remember It. Never Lose It." />
+  <meta name="twitter:description" content="Privacy-first browser productivity extension. Save webpages, set reminders, and prioritize what matters." />
+  <meta name="twitter:image" content="/assets/marquee_promo_tile.png" />
+
+  <!-- Authoritative Product Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
+
+  <!-- Google Font: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="bg-ambient-glow" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- ==========================================================================
+       NAVBAR (Section 4)
+       ========================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand" aria-label="Marakadhey Home">
+        <img src="/assets/icon.png" alt="Marakadhey Logo" class="nav-logo-img" width="34" height="34" />
+        <span class="brand-text">Marak<span class="brand-accent">adhey</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#install" class="btn-nav">
+          <span>Get Extension</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#features" class="mobile-nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="mobile-nav-link">How It Works</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="https://pranaveshn.vercel.app/marakadhey_mobile.apk" class="btn btn-hero-android" style="width: 100%;" download="marakadhey_mobile.apk">
+          <img src="/assets/android.svg" alt="Android Logo" class="btn-icon" width="20" height="20" />
+          <span>Download Android APK</span>
+        </a>
+        <a href="#install" class="btn btn-secondary" style="width: 100%;">
+          <span>View All Platforms</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         HERO SECTION (Section 5 & 6)
+         ========================================================================== -->
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Copy Left Column -->
+          <div class="hero-content reveal-on-scroll">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              <span>YOUR WEB, YOUR MEMORY.</span>
+            </div>
+
+            <h1 class="hero-headline">
+              Never Forget Something <span class="text-gradient-purple">Important</span> Again.
+            </h1>
+
+            <p class="hero-copy">
+              Marakadhey is a privacy-first browser extension and mobile app that helps you save webpages, capture important information, set reminders, and bring forgotten things back at the right time.
+            </p>
+
+            <p class="hero-secondary-line">
+              Built for people who constantly say: "I'll come back to this later."
+            </p>
+
+            <!-- Direct Marketplace & APK CTA Buttons -->
+            <div class="hero-cta-group">
+              <a href="https://chromewebstore.google.com/detail/inidbaohifkncdjnondbkljhoogkhnce?utm_source=item-share-cb" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn btn-hero-chrome">
+                <img src="/assets/chrome.svg" alt="Google Chrome Logo" class="btn-icon" width="22" height="22" />
+                <span>Add to Chrome</span>
+              </a>
+
+              <a href="https://microsoftedge.microsoft.com/addons/detail/marakadhey%E2%80%93never-miss-opp/cmndbipcnkkmeojkioajenbckapcfpla" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn btn-hero-edge">
+                <img src="/assets/edge.svg" alt="Microsoft Edge Logo" class="btn-icon" width="22" height="22" />
+                <span>Get it for Edge</span>
+              </a>
+
+              <a href="https://pranaveshn.vercel.app/marakadhey_mobile.apk" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn btn-hero-android"
+                 download="marakadhey_mobile.apk"
+                 title="Direct APK for Android Phones">
+                <img src="/assets/android.svg" alt="Android Robot Logo" class="btn-icon" width="22" height="22" />
+                <span>Android APK</span>
+              </a>
+            </div>
+
+            <div class="hero-trust-line">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <span>Your saved information stays yours. Free for Chrome, Edge &amp; Android.</span>
+            </div>
+          </div>
+
+          <!-- Hero Product Mockup Right Column (Section 6) -->
+          <div class="hero-visual-container reveal-on-scroll delay-200">
+            <!-- Floating Glass Labels -->
+            <div class="floating-label floating-1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Saved</span>
+            </div>
+            <div class="floating-label floating-2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              <span>Reminder set</span>
+            </div>
+            <div class="floating-label floating-3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <span>Tomorrow</span>
+            </div>
+            <div class="floating-label floating-4">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>High priority</span>
+            </div>
+
+            <!-- Realistic Browser Chrome & Popup -->
+            <div class="hero-browser-mockup" role="region" aria-label="Marakadhey Interface Preview">
+              <!-- Window chrome bar -->
+              <div class="browser-chrome-bar">
+                <div class="browser-dots" aria-hidden="true">
+                  <span class="browser-dot red"></span>
+                  <span class="browser-dot yellow"></span>
+                  <span class="browser-dot green"></span>
+                </div>
+                <div class="browser-url-bar">
+                  <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  <span>arxiv.org/abs/2402.12345 — Attention is All You Need</span>
+                </div>
+                <img src="/assets/icon.png" alt="Marakadhey Icon" class="browser-extension-icon" width="20" height="20" />
+              </div>
+
+              <!-- Product popup container -->
+              <div class="mockup-extension-popup">
+                <div class="mockup-popup-header">
+                  <div class="mockup-brand-title">
+                    <img src="/assets/icon.png" alt="Marakadhey" class="mockup-logo" width="24" height="24" />
+                    <div>
+                      <div class="mockup-brand-name">Marakadhey</div>
+                      <div class="mockup-brand-tagline">Save now. Remember later.</div>
+                    </div>
+                  </div>
+                  <div class="mockup-status-indicator">
+                    <span class="mockup-status-dot"></span>
+                    <span>Ready</span>
+                  </div>
+                </div>
+
+                <!-- Form content representing user prompt specs -->
+                <div class="mockup-form-group">
+                  <div class="mockup-label">
+                    <span>Opportunity Title</span>
+                    <span style="color: var(--accent-cyan);">Auto-detected</span>
+                  </div>
+                  <div class="mockup-input-box highlight">
+                    <span style="font-weight: 600;">Research paper</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  </div>
+                </div>
+
+                <div class="mockup-form-group">
+                  <div class="mockup-label">
+                    <span>Optional Notes</span>
+                  </div>
+                  <div class="mockup-input-box">
+                    <span style="color: #E4E4E7;">Remember to read this</span>
+                  </div>
+                </div>
+
+                <div class="mockup-form-group">
+                  <div class="mockup-label">
+                    <span>Reminder Date &amp; Quick Presets</span>
+                  </div>
+                  <div class="mockup-input-box">
+                    <span>Tomorrow, 09:00 AM</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  </div>
+                  <div class="mockup-presets">
+                    <div class="mockup-preset-chip">Today Eve</div>
+                    <div class="mockup-preset-chip active">Tomorrow</div>
+                    <div class="mockup-preset-chip">3 Days</div>
+                    <div class="mockup-preset-chip">1 Week</div>
+                  </div>
+                </div>
+
+                <div class="mockup-meta-row">
+                  <div class="mockup-form-group" style="margin-bottom: 0;">
+                    <div class="mockup-label"><span>Priority</span></div>
+                    <div class="mockup-input-box" style="border-color: rgba(239, 68, 68, 0.4);">
+                      <span style="color: #F87171; font-weight: 600;">High priority</span>
+                      <span style="width: 8px; height: 8px; border-radius: 50%; background: #EF4444;"></span>
+                    </div>
+                  </div>
+                  <div class="mockup-form-group" style="margin-bottom: 0;">
+                    <div class="mockup-label"><span>Snooze</span></div>
+                    <div class="mockup-input-box">
+                      <span style="color: var(--text-muted);">Available</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="margin-top: 18px;">
+                  <button class="mockup-btn-save" type="button" aria-label="Mockup Save Reminder">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                    <span>Save Reminder</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CAPABILITY STATS (Section 7)
+         ========================================================================== -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          
+          <div class="glass-card stat-card reveal-on-scroll">
+            <div class="stat-value text-gradient-purple">1 Click</div>
+            <div class="stat-label">Save anything</div>
+          </div>
+
+          <div class="glass-card stat-card reveal-on-scroll delay-100">
+            <div class="stat-value text-gradient-cyan">Smart</div>
+            <div class="stat-label">Reminders</div>
+          </div>
+
+          <div class="glass-card stat-card reveal-on-scroll delay-200">
+            <div class="stat-value" style="color: #FFFFFF;">Privacy First</div>
+            <div class="stat-label">Designed around control</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURES SECTION (Section 8)
+         ========================================================================== -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">Powerful Capabilities</div>
+          <h2 class="section-title">Your memory, built into the browser.</h2>
+          <p class="section-subtitle">Marakadhey turns forgotten tabs and useful webpages into things you actually remember.</p>
+        </div>
+
+        <div class="features-grid">
+          
+          <!-- Card 1: Save Anything (Bookmark) -->
+          <div class="glass-card feature-card reveal-on-scroll">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Save Anything</h3>
+            <p class="feature-description">
+              Save webpages and useful information directly from your browser before they disappear into a sea of tabs.
+            </p>
+          </div>
+
+          <!-- Card 2: Remind Me Later (Bell) -->
+          <div class="glass-card feature-card reveal-on-scroll delay-100">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Remind Me Later</h3>
+            <p class="feature-description">
+              Set a reminder for something you want to revisit instead of relying on your memory.
+            </p>
+          </div>
+
+          <!-- Card 3: Smart Deadlines (Calendar) -->
+          <div class="glass-card feature-card cyan-accent reveal-on-scroll delay-200">
+            <div class="feature-icon-wrapper" style="color: var(--accent-cyan); background: var(--accent-cyan-dim); border-color: rgba(0, 229, 255, 0.3);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Smart Deadlines</h3>
+            <p class="feature-description">
+              Detect useful dates and deadlines from saved content and make them easier to remember.
+            </p>
+          </div>
+
+          <!-- Card 4: Priority Inbox (Inbox) -->
+          <div class="glass-card feature-card reveal-on-scroll">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/>
+                <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Priority Inbox</h3>
+            <p class="feature-description">
+              Keep important saved items visible and separate from things you can deal with later.
+            </p>
+          </div>
+
+          <!-- Card 5: Snooze & Recurrence (Clock) -->
+          <div class="glass-card feature-card reveal-on-scroll delay-100">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Snooze &amp; Recurrence</h3>
+            <p class="feature-description">
+              Postpone reminders or make them repeat when something needs your attention regularly.
+            </p>
+          </div>
+
+          <!-- Card 6: Privacy First (Shield) -->
+          <div class="glass-card feature-card cyan-accent reveal-on-scroll delay-200">
+            <div class="feature-icon-wrapper" style="color: var(--accent-cyan); background: var(--accent-cyan-dim); border-color: rgba(0, 229, 255, 0.3);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Privacy First</h3>
+            <p class="feature-description">
+              Your saved information should belong to you. Marakadhey is designed around privacy instead of unnecessary data collection.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOW IT WORKS (Section 9)
+         ========================================================================== -->
+    <section id="how-it-works" class="section" style="background: rgba(8, 8, 11, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag cyan">Seamless Workflow</div>
+          <h2 class="section-title">From "I'll remember this" to actually remembering it.</h2>
+          <p class="section-subtitle">Three intuitive steps that integrate seamlessly into your day-to-day web browsing.</p>
+        </div>
+
+        <div class="timeline-steps">
+          
+          <!-- Step 01 -->
+          <div class="glass-card step-card reveal-on-scroll">
+            <div class="step-node-header">
+              <span class="step-badge">STEP 01</span>
+              <div class="step-number-circle">01</div>
+            </div>
+            <h3 class="step-title">SAVE</h3>
+            <p class="step-description">Find something useful on the web? Save it with Marakadhey.</p>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="glass-card step-card reveal-on-scroll delay-100">
+            <div class="step-node-header">
+              <span class="step-badge" style="color: #C084FC;">STEP 02</span>
+              <div class="step-number-circle">02</div>
+            </div>
+            <h3 class="step-title">SET</h3>
+            <p class="step-description">Choose when you want to be reminded, set a priority, or snooze it for later.</p>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="glass-card step-card reveal-on-scroll delay-200">
+            <div class="step-node-header">
+              <span class="step-badge">STEP 03</span>
+              <div class="step-number-circle">03</div>
+            </div>
+            <h3 class="step-title">REMEMBER</h3>
+            <p class="step-description">When the time comes, Marakadhey brings it back to your attention.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PRODUCT SHOWCASE (Section 10)
+         ========================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">Interactive Interface</div>
+          <h2 class="section-title">Built around the way you actually browse.</h2>
+          <p class="section-subtitle">Experience how Marakadhey organizes opportunities, manages deadlines, and respects your focus.</p>
+        </div>
+
+        <div class="showcase-wrapper reveal-on-scroll">
+          <!-- Floating Feature Badges -->
+          <div class="showcase-tags-bar" role="tablist" aria-label="Showcase Views">
+            <button class="showcase-chip active showcase-tab-btn" data-target="view-inbox" role="tab" aria-selected="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/></svg>
+              <span>Inbox &amp; Priorities</span>
+            </button>
+            <button class="showcase-chip showcase-tab-btn" data-target="view-capture" role="tab" aria-selected="false">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+              <span>Smart Capture</span>
+            </button>
+            <button class="showcase-chip showcase-tab-btn" data-target="view-dashboard" role="tab" aria-selected="false">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+              <span>Urgency Dashboard</span>
+            </button>
+          </div>
+
+          <!-- Product Showcase Window -->
+          <div class="showcase-window">
+            <div class="showcase-window-header">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="/assets/icon.png" alt="Marakadhey" width="22" height="22" />
+                <span style="font-weight: 700; font-size: 0.95rem;">Marakadhey Extension</span>
+                <span style="font-size: 0.75rem; color: var(--text-dim); background: rgba(255, 255, 255, 0.05); padding: 2px 8px; border-radius: 4px;">v2.3.2</span>
+              </div>
+              <div style="display: flex; gap: 8px;">
+                <span style="font-size: 0.78rem; color: #34D399; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); padding: 3px 10px; border-radius: 12px; font-weight: 600;">
+                  ● Client-side Encrypted
+                </span>
+              </div>
+            </div>
+
+            <!-- Panel 1: Inbox & Opportunities -->
+            <div class="showcase-content-panel showcase-view-panel active-view" id="view-inbox" role="tabpanel">
+              <div class="showcase-search-bar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" placeholder="Search saved items, tags, or links..." value="Grant &amp; Research Deadlines" readonly />
+                <span style="font-size: 0.75rem; color: var(--text-muted); background: rgba(255, 255, 255, 0.06); padding: 2px 6px; border-radius: 4px;">3 Active</span>
+              </div>
+
+              <div class="showcase-items-list">
+                <!-- Item 1 -->
+                <div class="showcase-item-row">
+                  <div class="item-left">
+                    <div class="item-check-circle" title="Mark completed">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                    </div>
+                    <div class="item-details">
+                      <h4>Horizon Research Fellowship Application</h4>
+                      <div class="item-meta">
+                        <span class="item-tag high">High Priority</span>
+                        <span>Due: Tomorrow at 5:00 PM</span>
+                        <span style="color: var(--accent-purple);">#Fellowship</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-actions">
+                    <button class="item-btn-action" type="button">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      <span>Snooze</span>
+                    </button>
+                    <button class="item-btn-action" style="color: var(--accent-cyan); border-color: rgba(0, 229, 255, 0.25);" type="button">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                      <span>Open Link</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="showcase-item-row">
+                  <div class="item-left">
+                    <div class="item-check-circle" title="Mark completed">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                    </div>
+                    <div class="item-details">
+                      <h4>ICLR 2027 Workshop Paper Review</h4>
+                      <div class="item-meta">
+                        <span class="item-tag medium">Medium Priority</span>
+                        <span>Due: In 4 Days</span>
+                        <span style="color: var(--accent-purple);">#Reading</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-actions">
+                    <button class="item-btn-action" type="button">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      <span>Snooze</span>
+                    </button>
+                    <button class="item-btn-action" type="button">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                      <span>Open Link</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="showcase-item-row">
+                  <div class="item-left">
+                    <div class="item-check-circle" title="Mark completed">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                    </div>
+                    <div class="item-details">
+                      <h4>Open Source WebGPU Shader Playground</h4>
+                      <div class="item-meta">
+                        <span class="item-tag" style="background: rgba(168, 85, 247, 0.15); color: #C084FC; border: 1px solid rgba(168, 85, 247, 0.3);">Normal</span>
+                        <span>Weekly Recurrence</span>
+                        <span style="color: var(--accent-cyan);">#Inspiration</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-actions">
+                    <button class="item-btn-action" type="button">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      <span>Snooze</span>
+                    </button>
+                    <button class="item-btn-action" type="button">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                      <span>Open Link</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 2: Smart Capture Preview -->
+            <div class="showcase-content-panel showcase-view-panel" id="view-capture" style="display: none;" role="tabpanel">
+              <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 24px; max-width: 600px; margin: 0 auto;">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+                  <span style="font-weight: 700; color: #FFFFFF;">Instant Auto-Detection</span>
+                  <span style="font-size: 0.75rem; color: #34D399; background: rgba(16, 185, 129, 0.1); padding: 3px 8px; border-radius: 4px;">Detected from text</span>
+                </div>
+                <div style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 16px; background: rgba(0,0,0,0.3); padding: 12px; border-radius: 6px; border-left: 3px solid var(--accent-purple);">
+                  "Submission deadline closes on October 14, 2026 at 11:59 PM EST. Late entries will not be evaluated."
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                  <div style="background: rgba(255,255,255,0.03); padding: 10px; border-radius: 6px; border: 1px solid var(--glass-border);">
+                    <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Suggested Date</div>
+                    <div style="font-weight: 600; color: #FFFFFF; font-size: 0.9rem;">14-10-2026</div>
+                  </div>
+                  <div style="background: rgba(255,255,255,0.03); padding: 10px; border-radius: 6px; border: 1px solid var(--glass-border);">
+                    <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Suggested Time</div>
+                    <div style="font-weight: 600; color: #FFFFFF; font-size: 0.9rem;">11:59 PM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 3: Urgency Dashboard -->
+            <div class="showcase-content-panel showcase-view-panel" id="view-dashboard" style="display: none;" role="tabpanel">
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px;">
+                <div style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 10px; text-align: center; border: 1px solid var(--glass-border);">
+                  <div style="font-size: 1.8rem; font-weight: 800; color: #FFFFFF;">12</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Total Saved</div>
+                </div>
+                <div style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 10px; text-align: center; border: 1px solid rgba(245, 158, 11, 0.3);">
+                  <div style="font-size: 1.8rem; font-weight: 800; color: #FBBF24;">3</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Due This Week</div>
+                </div>
+                <div style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: 10px; text-align: center; border: 1px solid rgba(16, 185, 129, 0.3);">
+                  <div style="font-size: 1.8rem; font-weight: 800; color: #34D399;">94%</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Completion Rate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PRIVACY SECTION (Section 11)
+         ========================================================================== -->
+    <section class="section" style="background: rgba(5, 5, 8, 0.6);">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag cyan">Architectural Integrity</div>
+          <h2 class="section-title">Your memory shouldn't become someone else's data.</h2>
+          <p class="section-subtitle">Marakadhey is built with a privacy-first mindset.</p>
+        </div>
+
+        <div class="privacy-grid">
+          
+          <!-- Card 1 -->
+          <div class="glass-card privacy-card reveal-on-scroll">
+            <span class="privacy-pill">LOCAL FIRST</span>
+            <h3 class="privacy-title">Local First</h3>
+            <p class="privacy-description">
+              Keep personal information as close to you as possible. All saved webpages, notes, and reminders live strictly inside your browser's local sandbox.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="glass-card privacy-card reveal-on-scroll delay-100">
+            <span class="privacy-pill">NO TRACKING</span>
+            <h3 class="privacy-title">No Unnecessary Tracking</h3>
+            <p class="privacy-description">
+              Marakadhey isn't designed around collecting your browsing life. We don't build shadow profiles, transmit browsing history, or monitor your web habits.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="glass-card privacy-card reveal-on-scroll delay-200">
+            <span class="privacy-pill">ZERO ADS</span>
+            <h3 class="privacy-title">You Stay In Control</h3>
+            <p class="privacy-description">
+              Your saved content and reminders should work for you — not advertisers. No telemetry selling, no creepy ad trackers, and zero mandatory account lock-in.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BROWSER & MOBILE INSTALLATION (Section 12) - EQUAL PLATFORM CARDS
+         ========================================================================== -->
+    <section id="install" class="section install-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">Direct Official Store &amp; APK Access</div>
+          <h2 class="section-title">Get Marakadhey on Desktop &amp; Mobile.</h2>
+          <p class="section-subtitle">Install Marakadhey for your preferred browser, or download the dedicated Android app for mobile memory on the go.</p>
+        </div>
+
+        <div class="install-grid">
+          
+          <!-- Chrome Card -->
+          <div class="install-card chrome-card reveal-on-scroll">
+            <div>
+              <div class="install-card-header">
+                <div class="browser-logo-wrap chrome-logo-wrap" title="Google Chrome">
+                  <img src="/assets/chrome.svg" alt="Google Chrome Logo" width="38" height="38" />
+                </div>
+                <div>
+                  <div class="install-label chrome-badge">CHROME WEB STORE</div>
+                  <h3 class="install-heading">Marakadhey for Chrome</h3>
+                </div>
+              </div>
+
+              <p class="install-description">
+                Install Marakadhey directly from the Chrome Web Store and start saving webpages, setting reminders, and organizing the things you don't want to forget.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://chromewebstore.google.com/detail/inidbaohifkncdjnondbkljhoogkhnce?utm_source=item-share-cb" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-install btn-install-chrome">
+                <img src="/assets/chrome.svg" alt="Chrome Logo" width="22" height="22" class="btn-icon" />
+                <span>Add to Chrome →</span>
+              </a>
+              <div class="install-availability">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Available on Chrome Web Store</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edge Card -->
+          <div class="install-card edge-card reveal-on-scroll delay-100">
+            <div>
+              <div class="install-card-header">
+                <div class="browser-logo-wrap edge-logo-wrap" title="Microsoft Edge">
+                  <img src="/assets/edge.svg" alt="Microsoft Edge Logo" width="38" height="38" />
+                </div>
+                <div>
+                  <div class="install-label edge-badge">MICROSOFT EDGE ADD-ONS</div>
+                  <h3 class="install-heading">Marakadhey for Edge</h3>
+                </div>
+              </div>
+
+              <p class="install-description">
+                Install Marakadhey directly from Microsoft Edge Add-ons and bring the same reminder and web-memory workflow to your Edge browser.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://microsoftedge.microsoft.com/addons/detail/marakadhey%E2%80%93never-miss-opp/cmndbipcnkkmeojkioajenbckapcfpla" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-install btn-install-edge">
+                <img src="/assets/edge.svg" alt="Edge Logo" width="22" height="22" class="btn-icon" />
+                <span>Get it for Edge →</span>
+              </a>
+              <div class="install-availability">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Available on Microsoft Edge Add-ons</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Android Mobile Card -->
+          <div class="install-card android-card reveal-on-scroll delay-200">
+            <div>
+              <div class="install-card-header">
+                <div class="browser-logo-wrap android-logo-wrap" title="Android Mobile">
+                  <img src="/assets/android.svg" alt="Android Robot Logo" width="38" height="38" />
+                </div>
+                <div>
+                  <div class="install-label android-badge">ANDROID MOBILE (APK)</div>
+                  <h3 class="install-heading">Marakadhey for Android</h3>
+                </div>
+              </div>
+
+              <p class="install-description">
+                Take your reminders and saved links everywhere. Download the official standalone Android application directly to your smartphone.
+              </p>
+            </div>
+
+            <div>
+              <a href="https://pranaveshn.vercel.app/marakadhey_mobile.apk" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-install btn-install-android"
+                 download="marakadhey_mobile.apk">
+                <img src="/assets/android.svg" alt="Android Logo" width="22" height="22" class="btn-icon" />
+                <span>Download Android APK →</span>
+              </a>
+              <div class="install-availability">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3DDC84" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Direct APK for Android Phones</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="install-footer-note reveal-on-scroll">
+          Available on Google Chrome, Microsoft Edge, and Android mobile devices.
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT SECTION (Section 13)
+         ========================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-grid">
+          
+          <div class="about-copy reveal-on-scroll">
+            <div class="section-tag">Origin &amp; Philosophy</div>
+            <h2 class="section-title">Why Marakadhey?</h2>
+            
+            <p class="about-p">
+              Marakadhey started with a simple problem: the internet is full of useful things we save with every intention of coming back to them — and then completely forget.
+            </p>
+            
+            <p class="about-p">
+              Bookmarks become cluttered. Tabs multiply. Notes get buried. Reminders are disconnected from the webpages that caused us to create them.
+            </p>
+
+            <p class="about-p">
+              Marakadhey brings saving, reminders, priorities, snoozing, and browser-based memory into one simple workflow.
+            </p>
+
+            <div class="about-tags">
+              <span class="about-tag-pill">Browser Productivity</span>
+              <span class="about-tag-pill">Reminders</span>
+              <span class="about-tag-pill">Privacy First</span>
+              <span class="about-tag-pill">Web Memory</span>
+              <span class="about-tag-pill">Personal Productivity</span>
+            </div>
+          </div>
+
+          <div class="glass-card about-visual-card reveal-on-scroll delay-200">
+            <div class="about-logo-halo">
+              <img src="/assets/icon.png" alt="Marakadhey Brand Logo" class="about-logo-img" width="72" height="72" />
+            </div>
+            <div class="about-product-name">Marakadhey</div>
+            <div class="about-product-tagline">"Save it. Remember it. Never lose it."</div>
+            
+            <div class="about-values-list">
+              <div class="about-value-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Zero registration or accounts required</span>
+              </div>
+              <div class="about-value-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>100% Client-side local storage engine</span>
+              </div>
+              <div class="about-value-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Works seamlessly offline anytime</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BUILT IN PUBLIC (Section 14)
+         ========================================================================== -->
+    <section class="section" style="background: rgba(8, 8, 11, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag cyan">Transparency</div>
+          <h2 class="section-title">Built in public.</h2>
+          <p class="section-subtitle">Follow the journey as Marakadhey evolves.</p>
+        </div>
+
+        <div class="bip-grid">
+          
+          <div class="glass-card bip-card reveal-on-scroll">
+            <div class="bip-badge">PRODUCT VISION</div>
+            <h3 class="bip-title">Marakadhey</h3>
+            <p class="bip-description">Browser productivity, redesigned around remembering.</p>
+          </div>
+
+          <div class="glass-card bip-card reveal-on-scroll delay-100">
+            <div class="bip-badge">ETHICAL CODE</div>
+            <h3 class="bip-title">Privacy First</h3>
+            <p class="bip-description">Why personal productivity tools shouldn't need your entire digital life.</p>
+          </div>
+
+          <div class="glass-card bip-card reveal-on-scroll delay-200">
+            <div class="bip-badge">CHANGELOG</div>
+            <h3 class="bip-title">What's New</h3>
+            <p class="bip-description">Follow new features, improvements, and experiments.</p>
+          </div>
+
+          <div class="glass-card bip-card reveal-on-scroll delay-300">
+            <div class="bip-badge">ENGINEERING</div>
+            <h3 class="bip-title">Behind the Build</h3>
+            <p class="bip-description">See how Marakadhey is being built from the ground up.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION (Section 15)
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="container" style="text-align: center;">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">Direct Communication</div>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Reach out directly via your preferred platform.</p>
+        </div>
+
+        <div class="social-icons-row reveal-on-scroll delay-100">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/pranaveshn" target="_blank" rel="noopener noreferrer" class="social-circle-btn linkedin-btn" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+
+          <!-- Gmail -->
+          <a href="mailto:pranaveshnandakumar@gmail.com" class="social-circle-btn mail-btn" aria-label="Gmail" title="Gmail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/916374161918" target="_blank" rel="noopener noreferrer" class="social-circle-btn whatsapp-btn" aria-label="WhatsApp" title="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.477-.15-.678.15-.201.3-.778.979-.954 1.18-.176.2-.352.226-.653.075s-1.27-.468-2.42-1.493c-.895-.798-1.5-1.784-1.676-2.085-.176-.3-.019-.463.131-.613.136-.135.301-.351.452-.527.151-.176.201-.3.301-.502.101-.2.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.237-.245-.588-.493-.508-.678-.518-.176-.01-.377-.01-.578-.01s-.527.075-.803.376c-.276.301-1.054 1.03-1.054 2.511 0 1.482 1.08 2.912 1.23 3.113.151.2 2.124 3.243 5.146 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.898.12.58-.088 1.78-.728 2.03-1.431.251-.703.251-1.306.176-1.431-.076-.126-.277-.201-.578-.352zM12.04 21.75c-1.733 0-3.435-.461-4.93-1.334L2.25 21.75l1.36-4.717A9.708 9.708 0 0 1 2.33 12.04C2.33 6.69 6.689 2.33 12.04 2.33c2.6 0 5.043 1.013 6.88 2.852a9.67 9.67 0 0 1 2.85 6.858c0 5.35-4.36 9.71-9.73 9.71zm0-17.72c-4.408 0-7.994 3.585-7.994 7.994 0 1.411.37 2.788 1.072 4.004l-.707 2.457 2.527-.663a7.95 7.95 0 0 0 5.102 1.215c4.408 0 7.993-3.586 7.993-7.994 0-2.136-.831-4.143-2.342-5.654a7.957 7.957 0 0 0-5.65-2.359z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FINAL CTA (Section 16)
+         ========================================================================== -->
+    <section class="final-cta-section">
+      <div class="container">
+        <div class="final-cta-box reveal-on-scroll">
+          <h2 class="final-cta-headline">Stop saying "I'll remember this."</h2>
+          <p class="final-cta-subtitle">Save it with Marakadhey instead.</p>
+
+          <div class="final-cta-buttons">
+            <a href="https://chromewebstore.google.com/detail/inidbaohifkncdjnondbkljhoogkhnce?utm_source=item-share-cb" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-hero-chrome">
+              <img src="/assets/chrome.svg" alt="Google Chrome Logo" class="btn-icon" width="22" height="22" />
+              <span>Add to Chrome</span>
+            </a>
+
+            <a href="https://microsoftedge.microsoft.com/addons/detail/marakadhey%E2%80%93never-miss-opp/cmndbipcnkkmeojkioajenbckapcfpla" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-hero-edge">
+              <img src="/assets/edge.svg" alt="Microsoft Edge Logo" class="btn-icon" width="22" height="22" />
+              <span>Get it for Edge</span>
+            </a>
+
+            <a href="https://pranaveshn.vercel.app/marakadhey_mobile.apk" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-hero-android"
+               download="marakadhey_mobile.apk">
+              <img src="/assets/android.svg" alt="Android Logo" class="btn-icon" width="22" height="22" />
+              <span>Android APK</span>
+            </a>
+          </div>
+
+          <div class="final-cta-footer-line">
+            Free to get started · Privacy-first · Available for Desktop &amp; Android
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER (Section 17)
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        
+        <div class="footer-brand-col">
+          <div class="footer-logo-row">
+            <img src="/assets/icon.png" alt="Marakadhey Logo" class="footer-logo-img" width="32" height="32" />
+            <span>Marak<span style="color: var(--accent-purple);">adhey</span></span>
+          </div>
+          <p class="footer-tagline">
+            "Save it. Remember it. Never lose it."
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#features" class="footer-link">Features</a></li>
+            <li><a href="#how-it-works" class="footer-link">How It Works</a></li>
+            <li><a href="#install" class="footer-link">Download</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Platforms</div>
+          <ul class="footer-links-list">
+            <li><a href="https://chromewebstore.google.com/detail/inidbaohifkncdjnondbkljhoogkhnce?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer" class="footer-link">Chrome Web Store</a></li>
+            <li><a href="https://microsoftedge.microsoft.com/addons/detail/marakadhey%E2%80%93never-miss-opp/cmndbipcnkkmeojkioajenbckapcfpla" target="_blank" rel="noopener noreferrer" class="footer-link">Edge Add-ons</a></li>
+            <li><a href="https://pranaveshn.vercel.app/marakadhey_mobile.apk" target="_blank" rel="noopener noreferrer" class="footer-link" download="marakadhey_mobile.apk">Android App (.APK)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Connect</div>
+          <ul class="footer-links-list">
+            <li><a href="https://www.linkedin.com/in/pranaveshn" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a></li>
+            <li><a href="mailto:pranaveshnandakumar@gmail.com" class="footer-link">Gmail</a></li>
+            <li><a href="https://wa.me/916374161918" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2026 Marakadhey. All rights reserved.</div>
+        <div style="color: var(--text-muted); font-style: italic;">Built to help you remember.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
