@@ -94,7 +94,7 @@ marakadhey_landingpage/
 │   │   ├── edge.svg                 # Official Microsoft Edge vector logo
 │   │   ├── android.svg              # Official Android robot vector logo
 │   │   ├── marquee_promo_tile.png   # Open Graph social preview banner
-│   │   └── screenshot_*.png         # Official extension interface screenshots
+│   │   └── small_promo_tile.png     # Promo asset
 │   └── favicon.png                  # Product favicon
 ├── src/
 │   ├── style.css                    # Design system, glassmorphism, responsive styles
